@@ -3,14 +3,14 @@ FROM node:latest
 # Create app directory
 WORKDIR /usr/src/app
 
-COPY package.json .
-COPY package-lock.json .
-COPY .babelrc .
+COPY package.json /usr/src/app/
+COPY package-lock.json /usr/src/app/
+COPY .babelrc /usr/src/app/
 
 RUN npm install
 
 # copy reminder of the files
-COPY . .
+COPY . /usr/src/app
 
 EXPOSE 3000
 

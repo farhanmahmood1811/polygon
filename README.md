@@ -7,7 +7,10 @@ Express , Nodejs, Mongodb
 
 ## Setup and run
 
-> docker-compose up
+> docker-compose up -d --force-recreate --build
+ Access Apis on localhost:3000
+
+ Access Logs using docker-compose logs -f 
 
   
 

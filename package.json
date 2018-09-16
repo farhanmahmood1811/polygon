@@ -1,5 +1,5 @@
 {
-  "name": "weavedin",
+  "name": "polygon",
   "version": "1.0.0",
   "description": "",
   "main": "lib/server.js",
@@ -30,7 +30,6 @@
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
     "passport-google-oauth2": "^0.1.6",
-    "passport-google-oauth20": "^1.0.0",
     "query-string": "^6.1.0"
   },
   "devDependencies": {
