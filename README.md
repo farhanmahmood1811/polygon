@@ -1,13 +1,11 @@
 # Weavedin Notification Feed!
 Express , Nodejs, Mongodb
 
-## Setup and Dependency
-#### Mongodb version > 3.6 and NodeJS version >10
-> `> npm install`
-> `> npm start`
+## Setup and run
+> docker-compose up
 
 # Student login api (Google Login)
-Got to http://localhost:3000/auth/google
+Go to http://localhost:3000/auth/google
 Response:
     {
         name: String,
@@ -17,3 +15,5 @@ Response:
 
 Token is passed as authorized header in each request to validate request on server end.
 
+For detail documentation navigate to this link
+https://documenter.getpostman.com/view/4381437/RWaKU99G
